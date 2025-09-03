@@ -24,23 +24,13 @@ const testimonials = [
   },
   {
     name: "Sergey",
+    text: "I always thought freelancing and earning in $ was for people outside Nigeria. This course showed me exactly how to position my skills and feel confident with clients. Within 3 months, I was making more from freelancing than from my old office job. Finally, I’m in control of my time and income.",
+    subText: "Earned more with freelancing in 3 months",
+  },
+  {
+    name: "Anastasia",
     text: "My biggest challenge was believing in myself. This course teaches me freelancing skills but also the mindset to keep going even with the fear. Today, I work with international clients and earn enough to save in dollars while planning my future.",
     subText: "Changed mindset and saved money",
-  },
-  {
-    name: "Anastasia",
-    text: "Amazing party!",
-    subText: "Landed 2 foreign jobs in Upwork",
-  },
-  {
-    name: "Anastasia",
-    text: "Amazing party!",
-    subText: "No longer financially depends on family",
-  },
-  {
-    name: "Laura",
-    text: "It was the best!!!",
-    subText: "Landed 2 foreign jobs in Upwork",
   },
 ];
 

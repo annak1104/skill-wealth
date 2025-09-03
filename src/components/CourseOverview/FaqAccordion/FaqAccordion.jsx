@@ -5,27 +5,27 @@ import { CloseIcon } from "../../../icons/CloseIcon.jsx";
 const FAQS = [
   {
     q: "Is SkillWealth suitable for beginners?",
-    a: "Yes — the course is designed to guide beginners step-by-step while providing value to more experienced learners. You'll get foundational lessons and practical exercises.",
+    a: "Absolutely. Each course is designed to guide you from fundamental concepts to advanced strategies, so beginners and intermediates can follow along comfortably.",
   },
   {
     q: "How long do I have access to the courses?",
-    a: "You get lifetime access to course materials and updates. Access remains available even if the course receives new content or improvements.",
+    a: "As long as you maintain an active subscription, you have unlimited access to all SkillWealth content. If you cancel, you’ll retain access until the billing cycle ends.",
   },
   {
     q: "Can I cancel my subscription at any time?",
-    a: "Yes, you can cancel your subscription anytime. Cancelling stops future recurring payments but does not retroactively refund already-processed payments.",
+    a: "Yes. Simply visit your account settings or contact support at [support@skillwealth.com] to cancel. You won’t be charged for future billing cycles once canceled.,",
   },
   {
     q: "Do I need to be a freelancer to follow this course?",
-    a: "No — the content is useful for freelancers, job-seekers, and anyone who wants to build remote skills and monetize them.",
+    a: "Not at all! While having freelance experience can be helpful, this course is designed for complete beginners, whether you’re already a freelancer or simply thinking about becoming one. No prior knowledge or skills are required.",
   },
   {
     q: "What if I have a full time job?",
-    a: "The course is structured for flexible learning — you can follow lessons at your own pace and apply tactics in spare time to build an additional income stream.",
+    a: "No problem! Our courses are designed with flexibility in mind, so you can learn at your own pace. Plus, you can even use your day job as a springboard to develop and strengthen your freelancing skills.",
   },
   {
     q: "How does the 7-day money-back guarantee work?",
-    a: "If you're unsatisfied with SkillWealth for any reason within 7 days of purchase, email [support@skillwealth.com] for a full refund, no questions asked.",
+    a: "If you’re unsatisfied with Skillwealth for any reason within 7 days of purchase, email [support@skillwealth.com] for a full refund, no questions asked.",
   },
 ];
 
