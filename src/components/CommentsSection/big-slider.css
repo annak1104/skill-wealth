@@ -1,0 +1,119 @@
+/* .swiper {
+  padding: 80px 0;
+} */
+
+.mySwiper {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.swiper-wrapper {
+  transform: none;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: var(--swiper-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform var(--swiper-transition-duration) ease, opacity var(--swiper-transition-duration) ease;
+}
+
+.mySwiper .swiper-slide {
+  opacity: var(--swiper-opacity-inactive);
+  margin: var(--swiper-slide-margin);
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: var(--swiper-opacity-active);
+  transform: scale(1.1);
+}
+
+.mySwiper .swiper-slide:hover {
+  opacity: 0.8;
+}
+
+.swiper-pagination {
+  display: none !important;
+ 
+}
+/* Override Swiper Pagination styles */
+/* .swiper-pagination-bullet {
+  background-color: #fff !important;
+  width: 20px;
+  height: 2px;
+  margin: 0 10px;
+  opacity: 1 !important;
+  border-radius: 0;
+} */
+
+/* .swiper-pagination-bullet-active {
+  background-color: #EB6431 !important;
+  transform: scale(1.2);
+} */
+
+
+
+/* Custom Navigation Buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  bottom: -50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Left Arrow (Prev) */
+.swiper-button-prev {
+  left: 45%;
+  transform: translateX(-50%);
+}
+
+/* Right Arrow (Next) */
+.swiper-button-next {
+  right: 45%;
+  transform: translateX(50%);
+}
+
+/* Hide default Swiper arrows */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 1024px) {
+  .mySwiper {
+    max-width: 100%;
+  }
+  .swiper-pagination {
+    display: block;
+  }
+
+  .mySwiper .swiper-slide {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+}
